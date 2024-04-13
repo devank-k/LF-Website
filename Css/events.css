@@ -1,0 +1,13 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as per your preference */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    max-width: 115%;
+    max-height: 115%;
+  }
+  
