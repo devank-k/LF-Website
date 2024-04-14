@@ -22,7 +22,7 @@
   --light-blue: #68b0de;
 
   --bg-1: url("");
-  --bg-2: url("okplease.jpg");
+  --bg-2: url("color.png");
 }
 @font-face {
   font-family: "LeagueSpartanVariable";
@@ -129,7 +129,7 @@ img {
   max-width: var(--full-w);
   display: block;
 }
-
+.container{
 h1 {
   -webkit-background-clip: text;
   background-clip: text;
@@ -190,6 +190,7 @@ h3 {
   font-variation-settings: "wght" 600;
   padding: calc(var(--default-padding) / 2);
   z-index: 2;
+}
 }
 
 .container {
