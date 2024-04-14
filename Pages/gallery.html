@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Le Fiestus</title>
-  <link rel="stylesheet" href="../Css/events.css">
-  <link rel="stylesheet" href="../Css/navbar.css">
-  <link rel="icon" type="image/x-icon" href="../LF-logo.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../Css/gallery.css">
 </head>
 <body>
-  <div class="container"></div>
-  <header>
-    <div class="logo">
-      <a href="../index.html"><img src="../LF logo.png" alt="Logo"></a>
+    <div class="slider">
+        <div class="list">
+            <div class="item active">
+                <img src="../Images/image3.webp">
+                <div class="content">
+                    <p></p>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../Images/image1.webp">
+                <div class="content">
+                    <p></p>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../Images/image2.webp">
+                <div class="content">
+                    <p></p>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../Images/image11.webp">
+                <div class="content">
+                    <p></p>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../Images/image4.webp">
+                <div class="content">
+                    <p></p>
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev">&#10094;</button>
+            <button id="next">&#10095;</button>
+        </div>
+        
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="../Images/image3.webp">
+                <div class="content"></div>
+            </div>
+            <div class="item">
+                <img src="../Images/image1.webp">
+                <div class="content"></div>
+            </div>
+            <div class="item">
+                <img src="../Images/image2.webp">
+                <div class="content"></div>
+            </div>
+            <div class="item">
+                <img src="../Images/image11.webp">
+                <div class="content"></div>
+            </div>
+            <div class="item">
+                <img src="../Images/image4.webp">
+                <div class="content"></div>
+            </div>
+        </div>
     </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="../Pages/events.html"><button><span>Events</span></button></a></li>
-        <li><a href="../Pages/performers.html"><button><span>Performers</span></button></a></li>
-        <li><a href="../Pages/gallery.html"><button><span>Gallery</span></button></a></li>
-        <li><a href="../Pages/contact.html"><button><span>Contact</span></button></a></li>
-      </ul>
-    </nav>
-  </header>
-  <script>
-    let docTitle = document.title;
-    window.addEventListener("blur", () => {
-      document.title = "Le Fiestus is waiting";
-    });
-    window.addEventListener("focus", () => {
-      document.title = docTitle;
-    });
-  </script>
-  
+    
+    
+
+ <script src="../Js/gallery.js"></script>    
 </body>
 </html>
