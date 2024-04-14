@@ -90,10 +90,10 @@ nav {
 
 button {
   padding: 0.1em 0.10em;
-  width: 9.7em;
-  height: 3.2em;
-  background-color: #b400b4;
-  border: 0.08em solid #ff07b9;
+  width: 9.4em;
+  height: 3.0em;
+  background-color: #fb6c0e;
+  border: 0em solid #fb6c0e;
   border-radius: 0.3em;
   font-size: 12px;
   cursor: pointer;
@@ -104,10 +104,10 @@ button span {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0.4em;
-  width: 6.25em;
+  bottom: 0.45em;
+  width: 6.3em;
   height: 2.0em;
-  background-color: #ff1540;
+  background-color: #ff0000;
   border-radius: 0.2em;
   font-size: 1.5em;
   color: #000000;
@@ -129,6 +129,7 @@ img {
   max-width: var(--full-w);
   display: block;
 }
+
 .container{
 h1 {
   -webkit-background-clip: text;
