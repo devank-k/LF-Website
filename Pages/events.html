@@ -6,7 +6,7 @@
   <title>Le Fiestus</title>
   <link rel="stylesheet" href="../Css/events.css">
   <link rel="stylesheet" href="../Css/navbar.css">
-  <link rel="icon" type="image/x-icon" href="../LF-logo.ico">
+  <link rel="icon" type="image/x-icon" href="../LF-logo.jpg">
 </head>
 <body>
   <header>
@@ -36,6 +36,22 @@
       document.title = docTitle;
     });
   </script>
+  <script>
+    let prevScrollpos = window.pageYOffset;
+const header = document.querySelector("header");
+
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (currentScrollPos === 0) {
+    header.classList.add("header-visible");
+  } else {
+    header.classList.remove("header-visible");
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+  </script>
+  
   
 </body>
 </html>

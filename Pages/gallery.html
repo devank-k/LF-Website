@@ -6,6 +6,7 @@
     <title>Gallery</title>
     <link rel="stylesheet" href="../Css/gallery.css">
     <link rel="stylesheet" href="../Css/navbar.css">
+    <link rel="icon" type="image/x-icon" href="../LF-logo.jpg">
 </head>
 <body>
  <header>
@@ -89,9 +90,31 @@
         </div>
     </div>
 </section>
-    
-    
+<script>
+    let docTitle = document.title;
+    window.addEventListener("blur", () => {
+      document.title = "Le Fiestus is waiting";
+    });
+    window.addEventListener("focus", () => {
+      document.title = docTitle;
+    });
+  </script>
+  <script>
+    let prevScrollpos = window.pageYOffset;
+const header = document.querySelector("header");
 
- <script src="../Js/gallery.js"></script>    
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (currentScrollPos === 0) {
+    header.classList.add("header-visible");
+  } else {
+    header.classList.remove("header-visible");
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+  </script>
+ <script src="../Js/gallery.js"></script> 
+  
 </body>
 </html>

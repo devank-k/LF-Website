@@ -5,7 +5,7 @@
   --frame-bottom: hsl(30, 97%, 56%);
   --counter-top: #fec60d;
   --counter-bottom: #fec60d;
-  --label: hsl(36, 100%, 52%);
+  --label: #000000;
 }
 
  body {
@@ -14,8 +14,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-rows: 1fr 25vh;
-  color: white;
+  color: hsl(0, 0%, 0%);
 } 
 
 main {
