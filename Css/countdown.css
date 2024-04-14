@@ -1,41 +1,37 @@
 :root {
   --bg-dark: hsl(235, 16%, 14%);
-  --frame-bg: hsl(236, 25%, 22%);
-  --frame-top: hsl(236, 24%, 27%);
-  --frame-bottom: hsl(237, 21%, 33%);
-  --counter-top: hsl(345, 58%, 57%);
-  --counter-bottom: hsl(345, 95%, 68%);
-  --label: hsl(237, 18%, 59%);
+  --frame-bg: hsl(36, 100%, 52%);
+  --frame-top: hsl(19, 100%, 65%);
+  --frame-bottom: hsl(30, 97%, 56%);
+  --counter-top: #fec60d;
+  --counter-bottom: #fec60d;
+  --label: hsl(36, 100%, 52%);
 }
 
-/* body {
+ body {
   min-height: 100dvh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-rows: 1fr 25vh;
-  background-image: url(./imgs/bg-stars.svg);
-  background-color: var(--bg-dark);
-  font-family: 'Red Hat Text', sans-serif;
   color: white;
-} */
+} 
 
-/* main {
+main {
   padding: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3em;
-} */
+} 
 
-/* h1 {
+h1 {
   font-size: clamp(20px, 3vw, 1vw);
   font-weight: 600;
-  letter-spacing: 0.3em;
   text-align: center;
-} */
+} 
 
 .countdown {
   width: clamp(200px, 100%, 700px);
@@ -49,10 +45,10 @@
 .frame {
   position: relative;
   height: 100%;
-  width: 100%;
+  width: 94%;
   background-color: var(--frame-bg);
-  box-shadow: 0 3px 0 0 hsl(235, 25%, 29%), 0 6px 0 0 var(--frame-bg);
-  font-size: 5em;
+  box-shadow: 0 3px 0 0 hsl(35, 100%, 36%), 0 6px 0 0 var(--frame-bg);
+  font-size: 7em;
   font-weight: 700;
 }
 
@@ -128,7 +124,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: 0.3em;
   color: var(--label);
 }
