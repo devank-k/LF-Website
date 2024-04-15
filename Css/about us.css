@@ -1,0 +1,1181 @@
+
+
+.container-1{
+    position: relative;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    min-width: 320px;
+    position: relative; 
+    font-weight: 400;
+    color: white;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 11px 40px 10px;
+    border: 2px solid #fec60d;
+    background-color: #fec60d;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    display: inline-block;
+    transition: .25s ease-in;
+    color: #fff; }
+    .btn:hover {
+      background-color: transparent;
+      color: #fec60d; }
+
+.title-decor {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 20px; }
+
+.s-crossfit {
+    padding: 128px 0 140px; }
+    .s-crossfit .container {
+      position: relative; }
+      .s-crossfit .container > div {
+        position: relative;
+        z-index: 1; }
+  
+  .crossfit-col {
+    padding-top: 0px; }
+    .crossfit-col:nth-child(2) {
+      padding-top: 0; }
+  
+  .crossfit-item {
+    text-align: center;
+    padding: 50px 40px;
+    min-height: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d9730;
+    position: relative; }
+    .crossfit-item:before {
+      content: '';
+      position: absolute;
+      width: 95%;
+      height: 95%;
+      left: 50%;
+      top: 50%;
+      opacity: 0;
+      margin-top: 40px;
+      transform: translate(-50%, -50%);
+      border: 7px solid #fec60d;
+      transition: .4s ease-in-out;
+      pointer-events: none; }
+    .crossfit-item:hover:before {
+      margin-top: 0;
+      opacity: 1; }
+    .crossfit-item h3 {
+      text-transform: uppercase;
+      margin: 25px 0 6px; }
+    .crossfit-item p {
+      color: #bebebe;
+      font-size: 15px;
+      margin-bottom: 45px; }
+  
+  .crossfit-icon-1 {
+    position: absolute;
+    top: 29%;
+    left: 21%; }
+  
+  .crossfit-icon-2 {
+    position: absolute;
+    top: -12%;
+    left: 0%; }
+  
+  .crossfit-icon-3 {
+    position: absolute;
+    top: 8%;
+    right: 14%; }
+
+    @media (max-width: 1680px) {
+        .crossfit-banner-right {
+          padding-left: 60px; }
+          .crossfit-banner-right h2 {
+            font-size: 8em; }
+          .crossfit-banner-right .text-top {
+            font-size: 42px; }
+          .crossfit-banner-right .text-bottom {
+            font-size: 48px; }
+      
+        .crossfit-banner-left {
+          height: 560px; } }
+      @media (max-width: 1440px) {
+        .crossfit-banner-right .text-bottom {
+          font-size: 42px; }
+        .crossfit-banner-right .text-top {
+          font-size: 40px; }
+        .crossfit-banner-right h2 {
+          font-size: 7em; }
+      
+        .crossfit-banner-left {
+          height: 510px; } }
+      @media (max-width: 1366px) {
+        .logo img {
+          max-width: 96px; }
+      
+        .s-crossfit-slider .slider-navigation {
+          bottom: 28%; }
+        .s-crossfit-slider:before {
+          height: 40px; }
+      
+        .crossfit-slide .title {
+          font-size: 56px; }
+        .crossfit-slide .container {
+          min-height: 700px; }
+      
+        .s-related-posts .post-item-cover .post-thumbnail img {
+          height: 310px; }
+      
+        #clockdiv .clock-item .smalltext {
+          font-size: 22px; }
+      
+        .crossfit-icon-2 {
+          max-width: 70px; }
+      
+        #clockdiv {
+          max-width: 800px; }
+      
+        .s-counter .subscribe-form {
+          max-width: 600px; }
+      
+        .about-bottom-item .date-cover {
+          width: 35%; }
+      
+        .about-bottom-info {
+          width: 65%;
+          padding-right: 10px; }
+      
+        .about-img-1 .about-img-effect-1 {
+          bottom: 50px;
+          right: -40px; }
+      
+        .s-about-information .trainer-awards-effect {
+          display: none; }
+      
+        .about-info-row .about-info-col .number {
+          font-size: 78px;
+          padding-bottom: 30px; }
+      
+        .post-item-cover .post-thumbnail img {
+          height: 460px; }
+      
+        .fitness-slide .container {
+          min-height: 760px; }
+      
+        .section-title-bg {
+          font-size: 200px; }
+      
+        .fitness-post-col .post-content {
+          padding: 32px 20px 0; }
+      
+        .fitness-post-col .post-footer {
+          padding: 0 20px; }
+      
+        .fitness-post-col .post-footer .meta span {
+          font-size: 14px; } }
+      @media (max-width: 1280px) {
+        .crossfit-banner-right .text-bottom {
+          font-size: 36px; }
+        .crossfit-banner-right .text-top {
+          font-size: 34px; }
+        .crossfit-banner-right h2 {
+          font-size: 6em; }
+      
+        .crossfit-banner-left {
+          height: 450px;
+          background-position: center; }
+      
+        .s-related-posts .post-item-cover .post-content,
+        .s-related-posts .post-item-cover .post-footer {
+          padding: 0 30px; } }
+      @media (max-width: 1199px) {
+        .s-club-cards {
+          padding: 88px 0 140px; }
+      
+        .s-fitness-gallery,
+        .s-our-trainer,
+        .s-contacts,
+        .s-out-trainer,
+        .s-counter,
+        .s-training-schedule,
+        .s-our-programs,
+        .s-crossfit {
+          padding: 88px 0 100px; }
+      
+        .s-news,
+        .s-about-information,
+        .s-welcome-fitness,
+        .s-testimonials {
+          padding: 100px 0; }
+      
+        .s-fitness-posts,
+        .s-best-trainer,
+        .s-related-posts.home-related-posts {
+          padding-top: 88px; }
+      
+        .s-trainer-awards {
+          padding: 88px 0; }
+      
+        .s-club-cards.club-cards-fitness {
+          padding-bottom: 88px; }
+      
+        .s-about {
+          padding-top: 100px; }
+      
+        .page-about .s-about-bottom {
+          padding-bottom: 100px; }
+      
+        .fitness-banner-right:before,
+        .gallery-item a:after,
+        .testimonials-border .testimonials-slider {
+          border-width: 5px; }
+      
+        .welcome-fitness-info:before,
+        .club-card-item:before,
+        .crossfit-item:before {
+          border-width: 5px; }
+      
+        .fitness-banner-effect,
+        .s-trainer-awards .trainer-awards-effect,
+        .our-programs-effect,
+        .crossfit-icon-1,
+        .crossfit-icon-2,
+        .crossfit-icon-3,
+        .testimonials-effect,
+        .crossfit-slider-effect {
+          display: none !important; }
+      
+        .gallery-item a:before {
+          font-size: 22px; }
+      
+        .title-decor {
+          margin-bottom: 17px; }
+      
+        .crossfit-banner-right .text-top {
+          font-size: 26px; }
+        .crossfit-banner-right .text-bottom {
+          font-size: 28px; }
+        .crossfit-banner-right h2 {
+          font-size: 5.2em; }
+      
+        .crossfit-banner-left {
+          height: 400px; }
+      
+        .logo img {
+          max-width: 86px; }
+      
+        .crossfit-slide .container {
+          min-height: 560px; }
+        .crossfit-slide .title {
+          font-size: 46px; }
+        .crossfit-slide p {
+          max-width: 560px;
+          font-size: 14px; }
+      
+        .slider-navigation .slider-navigation-cover {
+          padding: 0 60px; }
+        .slider-navigation .slick-dots li button {
+          font-size: 22px; }
+        .slider-navigation .slick-arrow svg {
+          height: 28px; }
+      
+        .crossfit-item {
+          padding: 40px 30px;
+          min-height: 360px; }
+          .crossfit-item img {
+            max-width: 121px; }
+          .crossfit-item p {
+            font-size: 14px;
+            margin-bottom: 27px; }
+      
+        .program-item {
+          height: 270px; }
+          .program-item .program-item-inner h3 {
+            font-size: 18px; }
+          .program-item .program-item-back .program-item-inner {
+            transform: translateZ(80px); }
+            .program-item .program-item-back .program-item-inner h3 {
+              margin-bottom: 12px; }
+          .program-item .program-item-front .program-item-inner {
+            transform: translateZ(0px);
+            transition-delay: 0; }
+          .program-item:hover .program-item-front .program-item-inner {
+            transform: translateZ(80px); }
+      
+        .out-trainer-info .social-list li {
+          margin-right: 16px; }
+          .out-trainer-info .social-list li a {
+            font-size: 18px; }
+      
+        .btn {
+          font-size: 14px;
+          padding: 12px 40px 10px; }
+      
+        .club-card-item .price-cover .price {
+          font-size: 66px; }
+        .club-card-item .price-cover .date {
+          font-size: 16px; }
+          .club-card-item .price-cover .date span {
+            font-size: 26px; }
+        .club-card-item .list {
+          padding-bottom: 24px; }
+          .club-card-item .list li {
+            padding: 8px 0; }
+      
+        .testimonial-slide img {
+          height: 87px;
+          width: 87px; }
+        .testimonial-slide p {
+          max-width: 600px; }
+      
+        .s-related-posts .post-item-cover {
+          padding-bottom: 82px; }
+          .s-related-posts .post-item-cover .post-header {
+            margin-bottom: 32px; }
+            .s-related-posts .post-item-cover .post-header .related-post-categ {
+              min-width: 100px;
+              line-height: 32px; }
+          .s-related-posts .post-item-cover .post-thumbnail img {
+            height: 250px; }
+      
+        .post-item-cover .meta span {
+          margin-right: 34px; }
+      
+        .training-schedule-table table {
+          font-size: 12px; }
+        .training-schedule-table td h4 {
+          font-size: 14px; }
+      
+        #clockdiv .clock-item .smalltext {
+          font-size: 20px; }
+        #clockdiv .clock-item span {
+          font-size: 76px; }
+      
+        .fitness-our-program,
+        .s-contacts,
+        .s-out-trainer,
+        .s-training-schedule {
+          background-image: none !important; }
+      
+        .welcome-fitness-item {
+          padding-top: 7px; }
+      
+        .best-trainer-slide {
+          padding-bottom: 10px; }
+          .best-trainer-slide:before {
+            height: calc(100% - 10px);
+            width: calc(100% - 20px);
+            border-width: 5px; }
+          .best-trainer-slide:hover:before {
+            margin-top: 10px; }
+          .best-trainer-slide .name,
+          .best-trainer-slide .surname,
+          .best-trainer-slide .prof {
+            padding: 0 30px; }
+          .best-trainer-slide .prof {
+            margin-top: 8px; }
+      
+        .club-cards-lite .club-card-item {
+          padding-top: 78px;
+          padding-bottom: 78px; }
+      
+        .s-map .cont-map {
+          height: 350px; }
+      
+        .contact-item-left h4 {
+          font-size: 16px; }
+      
+        textarea {
+          height: 166px; }
+      
+        .about-img-1 .about-img-effect-1 {
+          display: none; }
+        .about-img-1 img {
+          max-width: 85%; }
+      
+        .about-img-2 {
+          margin-top: -110px; }
+          .about-img-2 img {
+            max-width: 60%; }
+      
+        .about-info-cover .social-list li {
+          margin-right: 16px; }
+        .about-info-cover .social-list a {
+          font-size: 18px; }
+        .about-info-cover .text p {
+          margin-bottom: 15px; }
+      
+        .about-cont li i {
+          margin-right: 12px;
+          font-size: 16px; }
+        .about-cont li a {
+          font-size: 14px; }
+      
+        .about-bottom-info {
+          font-size: 14px;
+          padding: 10px 15px 10px 20px; }
+      
+        .about-bottom-item .date-cover h4 {
+          font-size: 16px; }
+        .about-bottom-item .date-cover .date {
+          font-size: 42px;
+          margin-bottom: 7px; }
+      
+        .about-img-effect-2,
+        .about-effect-tringle {
+          display: none; }
+      
+        .s-about-information {
+          min-height: 400px; }
+      
+        .about-info-row .about-info-col .number {
+          font-size: 70px; }
+        .about-info-row .about-info-col h3 {
+          font-size: 18px; }
+      
+        .clients-cover .client-slide .client-slide-cover {
+          height: 100px; }
+      
+        .trainer-award-col p {
+          font-size: 14px;
+          line-height: 1.6; }
+      
+        .our-trainer-info p {
+          max-width: 100%; }
+      
+        .our-trainer-info .social-list li {
+          margin-right: 16px; }
+          .our-trainer-info .social-list li a {
+            font-size: 18px; }
+      
+        .our-trainer-effect-3 {
+          left: -30px; }
+      
+        .post-item-cover .post-thumbnail img {
+          height: 380px; }
+      
+        .widget-instagram ul {
+          margin: -5px; }
+          .widget-instagram ul li {
+            padding: 5px; }
+      
+        .fitness-slide .container {
+          min-height: 580px; }
+      
+        .fitness-slide .slide-img-effect {
+          max-height: 52%; }
+      
+        .fitness-slide .fitness-slide-cover .title {
+          font-size: 40px; }
+          .fitness-slide .fitness-slide-cover .title:before {
+            height: 30px; }
+          .fitness-slide .fitness-slide-cover .title span {
+            margin-top: 20px; }
+        .fitness-slide .fitness-slide-cover .text-bg {
+          font-size: 188px; }
+      
+        .s-fitness-slider .slider-navigation .slider-navigation-cover {
+          padding: 0px 50px; }
+      
+        .page-fitness .s-welcome-fitness {
+          margin-top: 88px; }
+      
+        .section-title-bg {
+          font-size: 130px; }
+      
+        .s-club-cards.club-cards-fitness .club-card-item {
+          padding-top: 60px;
+          padding-bottom: 60px; }
+      
+        .s-club-cards.club-cards-fitness .club-card-col:nth-child(2) .club-card-item {
+          padding-top: 96px;
+          padding-bottom: 102px; }
+      
+        .fitness-program-col:nth-child(2), .fitness-program-col:nth-child(5) {
+          transform: translateY(30px); }
+      
+        .fitness-program-col:nth-child(1), .fitness-program-col:nth-child(4) {
+          -webkit-transform: translateY(60px);
+          transform: translateY(60px); }
+      
+        .fitness-program-item {
+          height: 350px; }
+      
+        .fitness-our-program .section-title-bg {
+          top: -6px; }
+      
+        .fitness-our-program .btn {
+          margin-top: 60px; }
+      
+        .fitness-post-col .post-item-cover .post-header {
+          padding: 30px 0; }
+          .fitness-post-col .post-item-cover .post-header .date {
+            font-size: 30px; }
+      
+        .fitness-post-col .post-footer .meta {
+          margin-bottom: 30px; }
+          .fitness-post-col .post-footer .meta span {
+            font-size: 12px; }
+            .fitness-post-col .post-footer .meta span i {
+              font-size: 16px;
+              width: 16px;
+              margin-right: 6px; }
+      
+        .gallery-item .gal-item p {
+          font-size: 12px; }
+        .gallery-item .gal-item .title {
+          font-size: 16px; }
+      
+        .s-fitness-banner {
+          padding-top: 0;
+          margin-bottom: 100px; }
+      
+        .fitness-banner-left {
+          height: 600px;
+          flex: 0 0 40%;
+          max-width: 40%; }
+      
+        .fitness-banner-right {
+          flex: 0 0 60%;
+          max-width: 60%;
+          padding: 158px 0 0px 110px; }
+          .fitness-banner-right p {
+            font-size: 20px; }
+          .fitness-banner-right h2 {
+            font-size: 70px; }
+      
+        .fitness-slide .text-bg {
+          font-size: 188px; }
+      
+        .header-fitness .logo img {
+          max-width: 120px; }
+      
+        .fitness-slide .fitness-slider-effect {
+          display: none; }
+      
+        .widget-instagram li img {
+          height: 63px; } }
+      @media (max-width: 991px) {
+        .crossfit-banner-right {
+          padding-left: 40px; }
+          .crossfit-banner-right h2 {
+            font-size: 60px; }
+          .crossfit-banner-right .text-top {
+            font-size: 24px; }
+          .crossfit-banner-right .text-bottom {
+            font-size: 26px; }
+      
+        .crossfit-banner-left {
+          height: 350px; }
+      
+        .crossfit-slide .title {
+          font-size: 40px; }
+      
+        .s-crossfit-slider:before {
+          height: 30px; }
+      
+        .crossfit-item {
+          padding: 40px 20px; }
+          .crossfit-item img {
+            max-width: 111px; }
+      
+        .btn {
+          padding: 12px 30px 10px; }
+      
+        .program-item {
+          height: 220px; }
+          .program-item .program-item-inner h3 {
+            font-size: 16px;
+            max-width: 110px;
+            margin: 0 auto; }
+          .program-item .program-item-inner .btn {
+            min-width: 110px; }
+      
+        .out-trainer-info {
+          padding: 24px; }
+      
+        .club-card-item .price-cover .price {
+          font-size: 50px; }
+        .club-card-item .price-cover .date {
+          font-size: 14px; }
+          .club-card-item .price-cover .date span {
+            font-size: 20px; }
+        .club-card-item .list li {
+          padding: 6px 0; }
+      
+        .club-card-item {
+          background-size: cover; }
+      
+        .training-schedule-table td {
+          padding: 6px; }
+      
+        .our-trainer-effect-1,
+        .our-trainer-effect-2,
+        .our-trainer-effect-3,
+        .welcome-fitness-item img {
+          display: none !important; }
+      
+        .welcome-fitness-item {
+          padding-top: 20px; }
+      
+        .welcome-fitness-info {
+          padding: 40px 15px 45px 0; }
+      
+        .club-cards-lite .club-card-item {
+          padding-top: 58px;
+          padding-bottom: 58px; }
+      
+        .club-cards-lite .club-card-item .club-card-text {
+          margin-bottom: 34px; }
+      
+        .s-related-posts .post-item-cover .post-thumbnail img {
+          height: 190px; }
+      
+        .s-related-posts .post-item-cover .post-content,
+        .s-related-posts .post-item-cover .post-footer {
+          padding: 0 20px; }
+      
+        .about-row {
+          align-items: flex-start; }
+      
+        .s-about-bottom {
+          padding-top: 88px; }
+      
+        .about-bottom-info {
+          font-size: 13px;
+          padding: 5px 10px; }
+      
+        .about-info-row .about-info-col .number {
+          font-size: 62px; }
+        .about-info-row .about-info-col h3 {
+          font-size: 14px; }
+      
+        .s-about-information {
+          min-height: 350px; }
+      
+        .s-trainer-awards {
+          padding-bottom: 48px; }
+      
+        .trainer-award-col {
+          margin-bottom: 40px; }
+      
+        .widgets {
+          margin-top: 40px;
+          display: none;
+          width: 100% !important; }
+      
+        .widget-instagram li img {
+          height: 180px; }
+      
+        .fitness-slide .text-bg {
+          font-size: 140px; }
+      
+        .fitness-slide .container {
+          min-height: 520px; }
+      
+        .fitness-program-item-inner h3 {
+          font-size: 18px; }
+      
+        .fitness-program-item {
+          height: 280px; }
+      
+        .fitness-program-item-front .fitness-program-item-inner {
+          padding: 18px 0; }
+          .fitness-program-item-front .fitness-program-item-inner:before {
+            height: 16px; }
+      
+        .fitness-program-item-back .fitness-program-item-inner .date {
+          font-size: 14px; }
+      
+        .fitness-banner-left {
+          flex: 0 0 50%;
+          max-width: 50%;
+          height: 520px; }
+      
+        .fitness-banner-right {
+          flex: 0 0 50%;
+          max-width: 50%;
+          padding: 158px 0 0px 50px; }
+          .fitness-banner-right:before {
+            left: -60px; }
+          .fitness-banner-right h2 {
+            font-size: 50px; }
+          .fitness-banner-right p {
+            font-size: 16px; }
+      
+        .fitness-post-col .post-item-cover .post-header {
+          padding: 20px 0; }
+          .fitness-post-col .post-item-cover .post-header .date {
+            font-size: 24px; }
+      
+        .fitness-post-col .post-content .title {
+          font-size: 16px;
+          line-height: 1.2; }
+      
+        .fitness-post-col .post-footer .meta span {
+          width: 100%;
+          margin-bottom: 4px; }
+        .fitness-post-col .post-footer .meta .post-category,
+        .fitness-post-col .post-footer .meta .post-tags {
+          display: none; }
+      
+        .gallery-item .gal-item {
+          padding: 10px; }
+      
+        .s-news .row {
+          flex-direction: column-reverse; }
+      
+        .blog-cover {
+          margin-top: 88px; } }
+      @media (max-width: 767px) {
+        .testimonials-border .testimonial-slide p {
+          padding: 0 10px; }
+      
+        .s-our-programs {
+          padding-bottom: 70px; }
+      
+        .club-cards-lite .club-card-item {
+          padding-top: 40px;
+          padding-bottom: 40px; }
+          .club-cards-lite .club-card-item .club-card-text {
+            max-width: 350px; }
+      
+        .crossfit-banner-left {
+          height: 300px; }
+      
+        .crossfit-banner-right .text-top {
+          font-size: 20px; }
+        .crossfit-banner-right .text-bottom {
+          font-size: 20px; }
+        .crossfit-banner-right h2 {
+          font-size: 44px; }
+      
+        .logo img {
+          max-width: 76px; }
+      
+        .crossfit-slide .title {
+          font-size: 34px; }
+        .crossfit-slide .container {
+          min-height: 350px; }
+      
+        .crossfit-slide p {
+          margin-bottom: 0; }
+      
+        .crossfit-col {
+          padding-top: 0;
+          margin-bottom: 30px; }
+          .crossfit-col:last-child {
+            margin-bottom: 0; }
+      
+        .crossfit-item {
+          min-height: auto; }
+      
+        .program-item {
+          height: 280px; }
+          .program-item .program-item-inner .btn {
+            min-width: 130px; }
+          .program-item .program-item-inner h3 {
+            max-width: none;
+            font-size: 18px; }
+      
+        .club-card-col {
+          margin-bottom: 30px;
+          transform: translateY(0); }
+          .club-card-col:last-child {
+            margin-bottom: 0; }
+      
+        .out-trainer-col:last-child {
+          margin-bottom: 0; }
+        .out-trainer-col:nth-child(2n) {
+          transform: translateY(0); }
+      
+        .s-club-cards {
+          padding-bottom: 100px; }
+      
+        .s-related-posts .related-post-col:last-child {
+          margin-bottom: 0; }
+      
+        .s-related-posts.home-related-posts.crossfit-lite-posts .related-post-col:nth-child(2n),
+        .s-related-posts.home-related-posts .related-post-col:nth-child(2n) {
+          top: 0; }
+      
+        .training-schedule-table {
+          overflow: hidden;
+          overflow-x: auto;
+          width: 100%; }
+          .training-schedule-table table {
+            width: 730px; }
+      
+        #clockdiv .clock-item .smalltext {
+          font-size: 16px; }
+        #clockdiv .clock-item span {
+          font-size: 56px; }
+      
+        .s-counter .subscribe-form {
+          max-width: 440px; }
+      
+        .s-our-programs .program-col {
+          padding-top: 0;
+          margin-bottom: 30px; }
+          .s-our-programs .program-col:last-child {
+            margin-bottom: 0; }
+      
+        .to-top {
+          display: none; }
+      
+        .s-contacts .contact-item:last-child {
+          margin-bottom: 94px; }
+      
+        .s-map .cont-map {
+          height: 280px; }
+      
+        .about-img-col {
+          display: none; }
+      
+        .about-info-cover {
+          flex: 0 0 100%;
+          max-width: 100%; }
+      
+        .s-about-bottom .row > div {
+          margin-bottom: 30px; }
+          .s-about-bottom .row > div:last-child {
+            margin-bottom: 0; }
+      
+        .about-bottom-info {
+          font-size: 14px;
+          width: 60%;
+          padding: 5px 20px;
+          text-align: center; }
+      
+        .about-bottom-item .date-cover {
+          width: 40%; }
+      
+        .about-info-cover {
+          text-align: center; }
+          .about-info-cover .title-decor {
+            text-align: center; }
+            .about-info-cover .title-decor:before {
+              left: 50%;
+              transform: translateX(-50%); }
+          .about-info-cover .social-list {
+            justify-content: center; }
+      
+        .about-cont {
+          justify-content: center;
+          flex-direction: column; }
+          .about-cont li {
+            margin-right: 0;
+            margin-bottom: 6px; }
+            .about-cont li:last-child {
+              margin-bottom: 0; }
+      
+        .s-about {
+          padding-top: 88px; }
+      
+        .about-info-row .about-info-col {
+          flex: 0 0 25%;
+          max-width: 25%;
+          padding: 0 15px; }
+          .about-info-row .about-info-col:last-child {
+            display: none; }
+      
+        .trainer-img-col {
+          justify-content: center; }
+          .trainer-img-col img {
+            max-width: 250px; }
+      
+        .our-trainer-info {
+          text-align: center;
+          margin-top: 22px; }
+          .our-trainer-info .social-list {
+            justify-content: center; }
+      
+        .post-item-cover .post-thumbnail img {
+          height: 290px; }
+      
+        .pagination-item a {
+          font-size: 16px;
+          line-height: 29px;
+          width: 32px; }
+      
+        .navigation-item .title {
+          font-size: 16px; }
+      
+        .autor-cover img {
+          width: 90px;
+          height: 90px;
+          margin-right: 15px; }
+      
+        .review-content .name,
+        .autor-cover .name {
+          font-size: 18px; }
+      
+        .reviews-list ul {
+          padding-left: 30px; }
+      
+        .reviews-form,
+        .reviews {
+          margin-top: 88px; }
+      
+        blockquote {
+          padding: 15px 10px 15px 50px; }
+          blockquote p {
+            font-size: 14px; }
+          blockquote:before {
+            font-size: 30px;
+            line-height: 30px;
+            top: 15px;
+            left: 10px; }
+      
+        .fitness-slide .container {
+          min-height: 320px; }
+      
+        .s-fitness-slider:before {
+          height: 30px; }
+      
+        .fitness-slide .text-bg {
+          font-size: 96px; }
+      
+        .fitness-slide .fitness-slide-cover .title {
+          font-size: 30px; }
+          .fitness-slide .fitness-slide-cover .title:before {
+            height: 23px;
+            width: 3px; }
+          .fitness-slide .fitness-slide-cover .title span {
+            margin-top: 10px; }
+      
+        .section-title-bg {
+          font-size: 80px; }
+      
+        .s-fitness-gallery .section-title-bg,
+        .s-fitness-posts .section-title-bg,
+        .s-best-trainer .section-title-bg,
+        .s-club-cards.club-cards-fitness .section-title-bg {
+          top: 98px; }
+      
+        .fitness-our-program .section-title-bg {
+          top: 10px; }
+      
+        .s-club-cards.club-cards-fitness .club-card-col:nth-child(2) .club-card-item {
+          padding-top: 60px;
+          padding-bottom: 60px; }
+      
+        .fitness-program-item-front .fitness-program-item-inner {
+          padding: 14px 0; }
+          .fitness-program-item-front .fitness-program-item-inner .date {
+            font-size: 12px; }
+      
+        .fitness-program-item-back .fitness-program-item-inner {
+          padding: 10px; }
+          .fitness-program-item-back .fitness-program-item-inner .date {
+            font-size: 12px; }
+      
+        .fitness-program-item-inner h3 {
+          font-size: 16px; }
+      
+        .fitness-program-item {
+          height: 250px; }
+      
+        .fitness-banner-right h2 {
+          font-size: 38px; }
+      
+        .fitness-banner-right {
+          padding: 130px 0 0px 20px; }
+          .fitness-banner-right:before {
+            top: 64px; }
+          .fitness-banner-right p {
+            font-size: 14px; }
+      
+        .fitness-banner-left {
+          height: 430px; }
+      
+        .fitness-post-col {
+          transform: translateY(0);
+          margin-bottom: 30px; }
+          .fitness-post-col:last-child {
+            margin-bottom: 0; }
+      
+        .s-fitness-posts {
+          padding-bottom: 0; }
+      
+        .fitness-post-col .post-footer .meta span {
+          width: calc(50% - 5px); }
+      
+        .grid-sizer, .gallery-item {
+          width: 33.33%; } }
+      @media (max-width: 575px) {
+        .reviews-list ul {
+          padding-left: 15px; }
+      
+        .best-trainer-slide .prof {
+          font-size: 12px; }
+        .best-trainer-slide .surname,
+        .best-trainer-slide .name {
+          font-size: 16px; }
+      
+        .s-welcome-fitness {
+          padding-top: 88px; }
+      
+        .crossfit-banner-left {
+          display: none; }
+      
+        .crossfit-slide .title {
+          font-size: 30px; }
+        .crossfit-slide p {
+          font-size: 12px; }
+        .crossfit-slide .container {
+          min-height: 440px; }
+      
+        .program-item {
+          height: 320px; }
+      
+        .crossfit-banner-right {
+          padding: 70px 15px;
+          width: 100%; }
+          .crossfit-banner-right h2 {
+            font-size: 52px; }
+      
+        .s-related-posts .post-item-cover .post-thumbnail img {
+          height: 190px; }
+      
+        .post-item-cover .meta {
+          font-size: 12px; }
+          .post-item-cover .meta span {
+            margin-right: 14px;
+            margin-bottom: 4px; }
+          .post-item-cover .meta i {
+            margin-right: 8px; }
+      
+        #clockdiv .clock-item .smalltext {
+          font-size: 14px; }
+        #clockdiv .clock-item span {
+          font-size: 34px; }
+      
+        .s-counter .subscribe-form .btn {
+          padding-left: 15px;
+          padding-right: 15px; }
+      
+        .welcome-fitness-img {
+          display: none; }
+      
+        .welcome-fitness-item {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding: 0 15px; }
+      
+        .welcome-fitness-info {
+          padding: 0;
+          text-align: center; }
+          .welcome-fitness-info .title-decor {
+            text-align: center;
+            padding-bottom: 20px;
+            margin-bottom: 17px; }
+            .welcome-fitness-info .title-decor span {
+              display: inline; }
+            .welcome-fitness-info .title-decor:before {
+              display: block; }
+          .welcome-fitness-info:before {
+            display: none; }
+      
+        .s-about-information {
+          padding-bottom: 60px; }
+      
+        .about-info-row .about-info-col {
+          flex: 0 0 50%;
+          max-width: 50%;
+          margin-bottom: 40px; }
+          .about-info-row .about-info-col h3 {
+            margin-top: 10px; }
+          .about-info-row .about-info-col .number {
+            font-size: 40px;
+            padding-bottom: 17px; }
+            .about-info-row .about-info-col .number:before {
+              height: 3px;
+              width: 35px; }
+      
+        .post-item-cover .title {
+          font-size: 20px; }
+        .post-item-cover .post-thumbnail img {
+          height: 190px; }
+      
+        .navigation-item .title {
+          display: none; }
+      
+        .navigation-item {
+          position: relative; }
+          .navigation-item:before {
+            color: #fff;
+            font-family: 'FontAwesome';
+            position: absolute;
+            top: -1px; }
+          .navigation-item.navigation-left {
+            padding-left: 12px; }
+            .navigation-item.navigation-left:before {
+              content: '\f104';
+              left: 0; }
+          .navigation-item.navigation-right {
+            padding-right: 12px; }
+            .navigation-item.navigation-right:before {
+              content: '\f105';
+              right: 0; }
+      
+        .review-comment,
+        .autor-cover p {
+          font-size: 12px; }
+      
+        .grid-sizer, .gallery-item {
+          width: 50%; }
+      
+        .fitness-banner-left,
+        .gallery-item .gal-item p {
+          display: none; }
+      
+        .fitness-banner-right {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding: 88px 0;
+          text-align: center; }
+          .fitness-banner-right:before {
+            display: none; }
+      
+        .fitness-slide .container {
+          min-height: 450px; }
+        .fitness-slide .slide-img {
+          max-height: 70%;
+          max-width: 80%; }
+        .fitness-slide .slide-img-effect {
+          max-height: 40%; }
+        .fitness-slide .fitness-slide-cover .title {
+          padding: 10px 20px;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #fff; }
+          .fitness-slide .fitness-slide-cover .title:before {
+            display: none; }
+        .fitness-slide .text-bg {
+          font-size: 50px;
+          top: 20px;
+          transform: translate(-50%, 0); }
+      
+        .page-loaded .fitness-slide.slick-current .text-bg {
+          transform: translate(-50%, 0); }
+      
+        .fitness-our-program .fitness-program-col {
+          transform: translateY(0); }
+          .fitness-our-program .fitness-program-col:last-child {
+            margin-bottom: 0; }
+      
+        .fitness-our-program .btn {
+          margin-top: 40px; }
+      
+        .gallery-item .gal-item .title {
+          font-size: 14px; }
+      
+        .widget-instagram li img {
+          height: 100px; } }
