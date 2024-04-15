@@ -9,6 +9,7 @@
     position: relative; 
     font-weight: 400;
     color: white;
+    padding: 8px;
 }
 
 .btn {
@@ -35,9 +36,9 @@
 
 .s-crossfit {
     padding: 128px 0 140px; }
-    .s-crossfit .container {
+    .s-crossfit .container-1 {
       position: relative; }
-      .s-crossfit .container > div {
+      .s-crossfit .container-1 > div {
         position: relative;
         z-index: 1; }
   
@@ -762,7 +763,7 @@
       
         .crossfit-slide .title {
           font-size: 34px; }
-        .crossfit-slide .container {
+        .crossfit-slide .container-1 {
           min-height: 350px; }
       
         .crossfit-slide p {
@@ -1030,7 +1031,7 @@
           font-size: 30px; }
         .crossfit-slide p {
           font-size: 12px; }
-        .crossfit-slide .container {
+        .crossfit-slide .container-1 {
           min-height: 440px; }
       
         .program-item {
