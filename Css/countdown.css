@@ -13,7 +13,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  display: grid;
   color: hsl(0, 0%, 0%);
 } 
 
@@ -27,7 +26,8 @@ main {
 } 
 
 h1 {
-  font-size: clamp(20px, 3vw, 1vw);
+  padding-top: 20px;
+  font-size: clamp(30px, 3vw, 1vw);
   font-weight: 600;
   text-align: center;
 } 
@@ -132,6 +132,10 @@ h1 {
   .frame {
     font-size: 8vw;
   }
+  h1 {
+    font-size: clamp(20px, 3vw, 1vw);
+  } 
+
 }
 
 @media only screen and (max-width: 600px) {
