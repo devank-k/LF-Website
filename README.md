@@ -1,4 +1,4 @@
-https://devank-k.github.io/LF-Website/
+<a href="https://devank-k.github.io/LF-Website/">Demo</a>
 
 
 
@@ -6,9 +6,9 @@ https://devank-k.github.io/LF-Website/
 
 Welcome to the official GitHub repository for Le-Fiestus, our vibrant cultural fest celebrating the nostalgic charm of Retro India, with a special focus on the iconic "Horn, Ok Please" theme.
 
-# About Le-Fiestus
+# About Repository
 
-Le-Fiestus is an annual extravaganza hosted by Jaypee University of Information Technology, bringing together students, faculty, and enthusiasts from across the nation to revel in the rich tapestry of Indian culture, art, and tradition. With each edition, we delve into a unique facet of Indian heritage, and this year, we proudly present "Horn, Ok Please" – a tribute to the colorful, bustling streets of yesteryears, echoing with the symphony of horns and the aroma of street food.
+This is a hero section based on the theme "Horn, Ok Please"
 
 
 
